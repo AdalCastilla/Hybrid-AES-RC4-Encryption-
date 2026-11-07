@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Decryption with a key that differs in one bit, and decryption after one ciphertext bit is flipped (bit-flipping attack). BER and changed bits are measured on the output the receiver would obtain if the authentication tag were ignored.}
+\label{tab:p3_integrity}
+\small
+\begin{tabular}{lllll}
+\toprule
+\textbf{Scheme} & \textbf{Wrong key} & \textbf{BER if accepted} & \textbf{1-bit tamper} & \textbf{Bits changed} \\
+\midrule
+AES only & rejected (tag) & 0.4998 & rejected (tag) & 1 \\
+RC4 only & accepted & 0.5002 & accepted & 1 \\
+AES-RC4 & rejected (tag) & 0.4996 & rejected (tag) & 1 \\
+RC4-AES & rejected (tag) & 0.4998 & rejected (tag) & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

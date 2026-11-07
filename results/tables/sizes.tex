@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{File size in bytes before encryption, after encryption with each scheme, and after decryption (identical for every scheme).}
+\label{tab:p3_sizes}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{File} & \textbf{Original} & \textbf{AES only} & \textbf{RC4 only} & \textbf{AES-RC4} & \textbf{RC4-AES} & \textbf{Decrypted} \\
+\midrule
+File1 (.docx) & 411,105 & 411,137 & 411,105 & 411,137 & 411,137 & 411,105 \\
+File2 (.xlsx) & 11,475 & 11,507 & 11,475 & 11,507 & 11,507 & 11,475 \\
+File3 (.pptx) & 116,231 & 116,263 & 116,231 & 116,263 & 116,263 & 116,231 \\
+File4 (.jpg) & 64,525 & 64,557 & 64,525 & 64,557 & 64,557 & 64,525 \\
+File5 (.pdf) & 360,069 & 360,101 & 360,069 & 360,101 & 360,101 & 360,069 \\
+\bottomrule
+\end{tabular}
+\end{table}

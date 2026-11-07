@@ -1,0 +1,38 @@
+\begin{table}[htbp]
+\centering
+\caption{Avalanche Effect between the original key and each modified key of Table~\ref{tab:p3_keys}, measured on the raw ciphertext bytes. The last row of each block gives the average reported by Atikah et al.\ (2019) in their Tables IV, V and VI.}
+\label{tab:p3_ae_paper}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{File} & \textbf{AES only} & \textbf{RC4 only} & \textbf{AES-RC4} & \textbf{RC4-AES} \\
+\midrule
+\multicolumn{5}{l}{\textit{Modified Key 1 (beginning of the key)}} \\
+File1 (.docx) & 50.04\% & 50.00\% & 50.01\% & 49.98\% \\
+File2 (.xlsx) & 49.75\% & 49.86\% & 50.13\% & 50.13\% \\
+File3 (.pptx) & 50.03\% & 49.97\% & 50.03\% & 49.95\% \\
+File4 (.jpg) & 50.02\% & 50.00\% & 50.09\% & 49.99\% \\
+File5 (.pdf) & 50.04\% & 49.99\% & 50.02\% & 49.97\% \\
+\textbf{Average} & 49.97\% & 49.96\% & 50.05\% & 50.00\% \\
+Paper average & 40.82\% & 49.99\% & 58.06\% & 40.78\% \\
+\midrule
+\multicolumn{5}{l}{\textit{Modified Key 2 (middle of the key)}} \\
+File1 (.docx) & 49.97\% & 50.03\% & 50.01\% & 49.93\% \\
+File2 (.xlsx) & 49.78\% & 50.04\% & 49.78\% & 49.91\% \\
+File3 (.pptx) & 49.87\% & 50.00\% & 49.98\% & 49.85\% \\
+File4 (.jpg) & 49.86\% & 50.05\% & 49.95\% & 49.84\% \\
+File5 (.pdf) & 49.97\% & 50.01\% & 50.02\% & 49.94\% \\
+\textbf{Average} & 49.89\% & 50.02\% & 49.95\% & 49.89\% \\
+Paper average & 40.82\% & 49.99\% & 58.20\% & 40.80\% \\
+\midrule
+\multicolumn{5}{l}{\textit{Modified Key 3 (end of the key)}} \\
+File1 (.docx) & 50.01\% & 50.02\% & 50.00\% & 49.95\% \\
+File2 (.xlsx) & 50.02\% & 50.14\% & 49.94\% & 50.12\% \\
+File3 (.pptx) & 50.12\% & 49.97\% & 50.05\% & 49.91\% \\
+File4 (.jpg) & 50.17\% & 49.99\% & 50.09\% & 49.89\% \\
+File5 (.pdf) & 50.02\% & 50.02\% & 50.00\% & 49.92\% \\
+\textbf{Average} & 50.07\% & 50.03\% & 50.02\% & 49.96\% \\
+Paper average & 40.82\% & 49.99\% & 54.85\% & 40.76\% \\
+\bottomrule
+\end{tabular}
+\end{table}
