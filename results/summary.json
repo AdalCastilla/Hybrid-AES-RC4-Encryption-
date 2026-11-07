@@ -1,0 +1,859 @@
+{
+  "files": {
+    "file1.docx": {
+      "bytes": 411105,
+      "base64_encrypted_bytes": 548184
+    },
+    "file2.xlsx": {
+      "bytes": 11475,
+      "base64_encrypted_bytes": 15344
+    },
+    "file3.pptx": {
+      "bytes": 116231,
+      "base64_encrypted_bytes": 155020
+    },
+    "file4.jpg": {
+      "bytes": 64525,
+      "base64_encrypted_bytes": 86076
+    },
+    "file5.pdf": {
+      "bytes": 360069,
+      "base64_encrypted_bytes": 480136
+    }
+  },
+  "ae_paper": {
+    "Modified Key 1": {
+      "AES only": {
+        "per_file": {
+          "file1.docx": 50.04302093949219,
+          "file2.xlsx": 49.745806900147734,
+          "file3.pptx": 50.030641734687734,
+          "file4.jpg": 50.017426460337376,
+          "file5.pdf": 50.03637868264737
+        },
+        "average": 49.97465494346248
+      },
+      "RC4 only": {
+        "per_file": {
+          "file1.docx": 49.99689860254679,
+          "file2.xlsx": 49.86383442265795,
+          "file3.pptx": 49.96655367328854,
+          "file4.jpg": 50.00213095699341,
+          "file5.pdf": 49.98826613787913
+        },
+        "average": 49.963536758673165
+      },
+      "AES-RC4": {
+        "per_file": {
+          "file1.docx": 50.00985073102153,
+          "file2.xlsx": 50.12709654992613,
+          "file3.pptx": 50.03107179412195,
+          "file4.jpg": 50.08713230168688,
+          "file5.pdf": 50.01916129086006
+        },
+        "average": 50.05486253352331
+      },
+      "RC4-AES": {
+        "per_file": {
+          "file1.docx": 49.97780545171074,
+          "file2.xlsx": 50.13035543582168,
+          "file3.pptx": 49.94559748157195,
+          "file4.jpg": 49.99206127917964,
+          "file5.pdf": 49.971292776193344
+        },
+        "average": 50.00342248489547
+      }
+    },
+    "Modified Key 2": {
+      "AES only": {
+        "per_file": {
+          "file1.docx": 49.97388340139661,
+          "file2.xlsx": 49.77948205440167,
+          "file3.pptx": 49.87291743718982,
+          "file4.jpg": 49.8572966525706,
+          "file5.pdf": 49.974382187219696
+        },
+        "average": 49.891592346555676
+      },
+      "RC4 only": {
+        "per_file": {
+          "file1.docx": 50.0274260833607,
+          "file2.xlsx": 50.04357298474945,
+          "file3.pptx": 49.99569822164483,
+          "file4.jpg": 50.04901201084851,
+          "file5.pdf": 50.006214086744485
+        },
+        "average": 50.0243846774696
+      },
+      "AES-RC4": {
+        "per_file": {
+          "file1.docx": 50.01030678338364,
+          "file2.xlsx": 49.778395759103155,
+          "file3.pptx": 49.982367563197236,
+          "file4.jpg": 49.94965689235869,
+          "file5.pdf": 50.017182679303865
+        },
+        "average": 49.947581935469316
+      },
+      "RC4-AES": {
+        "per_file": {
+          "file1.docx": 49.931500935211375,
+          "file2.xlsx": 49.908751194924825,
+          "file3.pptx": 49.85141446547913,
+          "file4.jpg": 49.84258097495237,
+          "file5.pdf": 49.939843266194764
+        },
+        "average": 49.89481816735249
+      }
+    },
+    "Modified Key 3": {
+      "AES only": {
+        "per_file": {
+          "file1.docx": 50.012617448684985,
+          "file2.xlsx": 50.01955331537325,
+          "file3.pptx": 50.11815882955025,
+          "file4.jpg": 50.167100391901734,
+          "file5.pdf": 50.01923071582695
+        },
+        "average": 50.06733214026743
+      },
+      "RC4 only": {
+        "per_file": {
+          "file1.docx": 50.02222668174797,
+          "file2.xlsx": 50.13725490196079,
+          "file3.pptx": 49.97160826285587,
+          "file4.jpg": 49.989151491669894,
+          "file5.pdf": 50.01742721533928
+        },
+        "average": 50.02753371071476
+      },
+      "AES-RC4": {
+        "per_file": {
+          "file1.docx": 50.003435594461216,
+          "file2.xlsx": 49.93916746328322,
+          "file3.pptx": 50.0468764783293,
+          "file4.jpg": 50.090423966417276,
+          "file5.pdf": 49.99892391301329
+        },
+        "average": 50.01576548310086
+      },
+      "RC4-AES": {
+        "per_file": {
+          "file1.docx": 49.95193208103382,
+          "file2.xlsx": 50.11840618753802,
+          "file3.pptx": 49.90592449876573,
+          "file4.jpg": 49.8873088898183,
+          "file5.pdf": 49.92293828675844
+        },
+        "average": 49.95730198878286
+      }
+    },
+    "overall": {
+      "AES only": 49.9778598100952,
+      "RC4 only": 50.00515171561917,
+      "AES-RC4": 50.00606998403116,
+      "RC4-AES": 49.951847547010274
+    }
+  },
+  "ae_base64": {
+    "Modified Key 1": {
+      "AES only": {
+        "per_file": {
+          "file1.docx": 40.85635480057791,
+          "file2.xlsx": 40.82051616266945,
+          "file3.pptx": 40.83537608050574,
+          "file4.jpg": 40.799845485385006,
+          "file5.pdf": 40.79190583501341
+        },
+        "average": 40.820799672830304
+      },
+      "RC4 only": {
+        "per_file": {
+          "file1.docx": 49.99689860254679,
+          "file2.xlsx": 49.86383442265795,
+          "file3.pptx": 49.96655367328854,
+          "file4.jpg": 50.00213095699341,
+          "file5.pdf": 49.98826613787913
+        },
+        "average": 49.963536758673165
+      },
+      "AES-RC4": {
+        "per_file": {
+          "file1.docx": 50.00716000466996,
+          "file2.xlsx": 50.20284801876955,
+          "file3.pptx": 49.98637272609986,
+          "file4.jpg": 50.00188786653655,
+          "file5.pdf": 49.9600633987037
+        },
+        "average": 50.03166640295593
+      },
+      "RC4-AES": {
+        "per_file": {
+          "file1.docx": 40.83161402011004,
+          "file2.xlsx": 40.769193169968716,
+          "file3.pptx": 40.822797058444074,
+          "file4.jpg": 40.79156791672475,
+          "file5.pdf": 40.82369370345069
+        },
+        "average": 40.807773173739655
+      }
+    },
+    "Modified Key 2": {
+      "AES only": {
+        "per_file": {
+          "file1.docx": 40.76883856515331,
+          "file2.xlsx": 40.52235401459854,
+          "file3.pptx": 40.747322926074055,
+          "file4.jpg": 40.78909916817696,
+          "file5.pdf": 40.83309208224336
+        },
+        "average": 40.73214135124924
+      },
+      "RC4 only": {
+        "per_file": {
+          "file1.docx": 50.0274260833607,
+          "file2.xlsx": 50.04357298474945,
+          "file3.pptx": 49.99569822164483,
+          "file4.jpg": 50.04901201084851,
+          "file5.pdf": 50.006214086744485
+        },
+        "average": 50.0243846774696
+      },
+      "AES-RC4": {
+        "per_file": {
+          "file1.docx": 49.985223939407206,
+          "file2.xlsx": 50.0610988008342,
+          "file3.pptx": 49.98669526512708,
+          "file4.jpg": 50.02265439843859,
+          "file5.pdf": 50.016401602879185
+        },
+        "average": 50.01441480133725
+      },
+      "RC4-AES": {
+        "per_file": {
+          "file1.docx": 40.76639869095048,
+          "file2.xlsx": 40.68121089676747,
+          "file3.pptx": 40.72418075087086,
+          "file4.jpg": 40.66232166922255,
+          "file5.pdf": 40.74327378076212
+        },
+        "average": 40.715477157714695
+      }
+    },
+    "Modified Key 3": {
+      "AES only": {
+        "per_file": {
+          "file1.docx": 40.8001920887877,
+          "file2.xlsx": 40.848214285714285,
+          "file3.pptx": 40.759176235324475,
+          "file4.jpg": 40.827582601422,
+          "file5.pdf": 40.81119724411417
+        },
+        "average": 40.80927249107253
+      },
+      "RC4 only": {
+        "per_file": {
+          "file1.docx": 50.02222668174797,
+          "file2.xlsx": 50.13725490196079,
+          "file3.pptx": 49.97160826285587,
+          "file4.jpg": 49.989151491669894,
+          "file5.pdf": 50.01742721533928
+        },
+        "average": 50.02753371071476
+      },
+      "AES-RC4": {
+        "per_file": {
+          "file1.docx": 49.98807425973761,
+          "file2.xlsx": 49.99185349322211,
+          "file3.pptx": 50.017175203199585,
+          "file4.jpg": 49.988818021283514,
+          "file5.pdf": 49.96816006298216
+        },
+        "average": 49.99081620808499
+      },
+      "RC4-AES": {
+        "per_file": {
+          "file1.docx": 40.7988695401544,
+          "file2.xlsx": 40.79200338894682,
+          "file3.pptx": 40.79038188620823,
+          "file4.jpg": 40.70487127654631,
+          "file5.pdf": 40.7824033190596
+        },
+        "average": 40.77370588218307
+      }
+    },
+    "overall": {
+      "AES only": 40.787404505050695,
+      "RC4 only": 50.00515171561917,
+      "AES-RC4": 50.012299137459394,
+      "RC4-AES": 40.76565207121247
+    }
+  },
+  "ae_strict": {
+    "Beginning": {
+      "AES only": {
+        "mean": 49.9888243751733,
+        "std": 0.08577572259889289,
+        "min": 49.73928912835665,
+        "max": 50.30090379768836,
+        "n": 100
+      },
+      "RC4 only": {
+        "mean": 50.01273686174744,
+        "std": 0.0915354918385414,
+        "min": 49.754901960784316,
+        "max": 50.41285403050109,
+        "n": 100
+      },
+      "AES-RC4": {
+        "mean": 50.00354535019346,
+        "std": 0.08205258297518687,
+        "min": 49.69909620231164,
+        "max": 50.340010428434866,
+        "n": 100
+      },
+      "RC4-AES": {
+        "mean": 49.96464600889569,
+        "std": 0.10069373800501381,
+        "min": 49.544842269922654,
+        "max": 50.413878508733816,
+        "n": 100
+      }
+    },
+    "Middle": {
+      "AES only": {
+        "mean": 49.980184844479844,
+        "std": 0.09780842038409752,
+        "min": 49.536151907534546,
+        "max": 50.34218301903189,
+        "n": 100
+      },
+      "RC4 only": {
+        "mean": 50.00191163489931,
+        "std": 0.09477868808461548,
+        "min": 49.648148148148145,
+        "max": 50.27559912854031,
+        "n": 100
+      },
+      "AES-RC4": {
+        "mean": 49.982011171953445,
+        "std": 0.08164055871130385,
+        "min": 49.58286260537064,
+        "max": 50.23572607977753,
+        "n": 100
+      },
+      "RC4-AES": {
+        "mean": 49.9793029765865,
+        "std": 0.09476913050228236,
+        "min": 49.4470756930564,
+        "max": 50.144714999612944,
+        "n": 100
+      }
+    },
+    "End": {
+      "AES only": {
+        "mean": 49.99150138657881,
+        "std": 0.09221787166636526,
+        "min": 49.61653775962458,
+        "max": 50.24550273746415,
+        "n": 100
+      },
+      "RC4 only": {
+        "mean": 49.99784553913482,
+        "std": 0.0902266115672985,
+        "min": 49.70043572984749,
+        "max": 50.354030501089326,
+        "n": 100
+      },
+      "AES-RC4": {
+        "mean": 49.988167570776625,
+        "std": 0.09372651894077152,
+        "min": 49.701268792908664,
+        "max": 50.38346224037542,
+        "n": 100
+      },
+      "RC4-AES": {
+        "mean": 49.99321835931547,
+        "std": 0.08592639031799075,
+        "min": 49.750152081341795,
+        "max": 50.298731207091336,
+        "n": 100
+      }
+    },
+    "overall": {
+      "AES only": {
+        "mean": 49.986836868743985,
+        "std": 0.09188434984148032,
+        "min": 49.536151907534546,
+        "max": 50.34218301903189,
+        "n": 300
+      },
+      "RC4 only": {
+        "mean": 50.00416467859385,
+        "std": 0.0921066191763504,
+        "min": 49.648148148148145,
+        "max": 50.41285403050109,
+        "n": 300
+      },
+      "AES-RC4": {
+        "mean": 49.99124136430785,
+        "std": 0.08617993854167541,
+        "min": 49.58286260537064,
+        "max": 50.38346224037542,
+        "n": 300
+      },
+      "RC4-AES": {
+        "mean": 49.97905578159922,
+        "std": 0.09440361149228685,
+        "min": 49.4470756930564,
+        "max": 50.413878508733816,
+        "n": 300
+      }
+    }
+  },
+  "integrity": {
+    "AES only": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "AES only",
+        "original_bytes": 411105,
+        "encrypted_bytes": 411137,
+        "decrypted_bytes": 411105,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.4996205348998431,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "AES only",
+        "original_bytes": 11475,
+        "encrypted_bytes": 11507,
+        "decrypted_bytes": 11475,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.49869281045751634,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "AES only",
+        "original_bytes": 116231,
+        "encrypted_bytes": 116263,
+        "decrypted_bytes": 116231,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.4998451359792138,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "AES only",
+        "original_bytes": 64525,
+        "encrypted_bytes": 64557,
+        "decrypted_bytes": 64525,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.5005327392483534,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "AES only",
+        "original_bytes": 360069,
+        "encrypted_bytes": 360101,
+        "decrypted_bytes": 360069,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.5004946968497704,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      }
+    },
+    "RC4 only": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "RC4 only",
+        "original_bytes": 411105,
+        "encrypted_bytes": 411105,
+        "decrypted_bytes": 411105,
+        "ber": 0.0,
+        "wrong_key_rejected": false,
+        "wrong_key_ber": 0.4994894856545165,
+        "wrong_key_ber_unverified": 0.4994894856545165,
+        "bfa_rejected": false,
+        "bfa_bits_changed": 1,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "RC4 only",
+        "original_bytes": 11475,
+        "encrypted_bytes": 11475,
+        "decrypted_bytes": 11475,
+        "ber": 0.0,
+        "wrong_key_rejected": false,
+        "wrong_key_ber": 0.4998148148148148,
+        "wrong_key_ber_unverified": 0.4998148148148148,
+        "bfa_rejected": false,
+        "bfa_bits_changed": 1,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "RC4 only",
+        "original_bytes": 116231,
+        "encrypted_bytes": 116231,
+        "decrypted_bytes": 116231,
+        "ber": 0.0,
+        "wrong_key_rejected": false,
+        "wrong_key_ber": 0.5000526967848509,
+        "wrong_key_ber_unverified": 0.5000526967848509,
+        "bfa_rejected": false,
+        "bfa_bits_changed": 1,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "RC4 only",
+        "original_bytes": 64525,
+        "encrypted_bytes": 64525,
+        "decrypted_bytes": 64525,
+        "ber": 0.0,
+        "wrong_key_rejected": false,
+        "wrong_key_ber": 0.501309569934134,
+        "wrong_key_ber_unverified": 0.501309569934134,
+        "bfa_rejected": false,
+        "bfa_bits_changed": 1,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "RC4 only",
+        "original_bytes": 360069,
+        "encrypted_bytes": 360069,
+        "decrypted_bytes": 360069,
+        "ber": 0.0,
+        "wrong_key_rejected": false,
+        "wrong_key_ber": 0.500176007931813,
+        "wrong_key_ber_unverified": 0.500176007931813,
+        "bfa_rejected": false,
+        "bfa_bits_changed": 1,
+        "bfa_bits_changed_unverified": 1
+      }
+    },
+    "AES-RC4": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "AES-RC4",
+        "original_bytes": 411105,
+        "encrypted_bytes": 411137,
+        "decrypted_bytes": 411105,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.5003685189914985,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "AES-RC4",
+        "original_bytes": 11475,
+        "encrypted_bytes": 11507,
+        "decrypted_bytes": 11475,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.49871459694989106,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "AES-RC4",
+        "original_bytes": 116231,
+        "encrypted_bytes": 116263,
+        "decrypted_bytes": 116231,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.4997504968554,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "AES-RC4",
+        "original_bytes": 64525,
+        "encrypted_bytes": 64557,
+        "decrypted_bytes": 64525,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.4994149554436265,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "AES-RC4",
+        "original_bytes": 360069,
+        "encrypted_bytes": 360101,
+        "decrypted_bytes": 360069,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.49967853383657024,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      }
+    },
+    "RC4-AES": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "RC4-AES",
+        "original_bytes": 411105,
+        "encrypted_bytes": 411137,
+        "decrypted_bytes": 411105,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.4998166526799723,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "RC4-AES",
+        "original_bytes": 11475,
+        "encrypted_bytes": 11507,
+        "decrypted_bytes": 11475,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.49945533769063183,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "RC4-AES",
+        "original_bytes": 116231,
+        "encrypted_bytes": 116263,
+        "decrypted_bytes": 116231,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.4999666612177474,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "RC4-AES",
+        "original_bytes": 64525,
+        "encrypted_bytes": 64557,
+        "decrypted_bytes": 64525,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.49948275862068964,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "RC4-AES",
+        "original_bytes": 360069,
+        "encrypted_bytes": 360101,
+        "decrypted_bytes": 360069,
+        "ber": 0.0,
+        "wrong_key_rejected": true,
+        "wrong_key_ber": null,
+        "wrong_key_ber_unverified": 0.5000635294901811,
+        "bfa_rejected": true,
+        "bfa_bits_changed": null,
+        "bfa_bits_changed_unverified": 1
+      }
+    }
+  },
+  "timing": {
+    "AES only": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "AES only",
+        "bytes": 411105,
+        "encrypt_ms": 0.9957089787349105,
+        "decrypt_ms": 0.9687499841675162
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "AES only",
+        "bytes": 11475,
+        "encrypt_ms": 0.12216699542477727,
+        "decrypt_ms": 0.12041605077683926
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "AES only",
+        "bytes": 116231,
+        "encrypt_ms": 0.3244170220568776,
+        "decrypt_ms": 0.32133300555869937
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "AES only",
+        "bytes": 64525,
+        "encrypt_ms": 0.22612500470131636,
+        "decrypt_ms": 0.2234579878859222
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "AES only",
+        "bytes": 360069,
+        "encrypt_ms": 0.7796250283718109,
+        "decrypt_ms": 0.7840420003049076
+      }
+    },
+    "RC4 only": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "RC4 only",
+        "bytes": 411105,
+        "encrypt_ms": 89.75862502120435,
+        "decrypt_ms": 89.76058301050216
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "RC4 only",
+        "bytes": 11475,
+        "encrypt_ms": 2.5391250383108854,
+        "decrypt_ms": 2.521082991734147
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "RC4 only",
+        "bytes": 116231,
+        "encrypt_ms": 25.53158299997449,
+        "decrypt_ms": 25.398667028639466
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "RC4 only",
+        "bytes": 64525,
+        "encrypt_ms": 14.126499998383224,
+        "decrypt_ms": 14.060416957363486
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "RC4 only",
+        "bytes": 360069,
+        "encrypt_ms": 77.91325001744553,
+        "decrypt_ms": 78.1850409694016
+      }
+    },
+    "AES-RC4": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "AES-RC4",
+        "bytes": 411105,
+        "encrypt_ms": 91.79745800793171,
+        "decrypt_ms": 89.50374997220933
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "AES-RC4",
+        "bytes": 11475,
+        "encrypt_ms": 2.669541980139911,
+        "decrypt_ms": 2.6592499925754964
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "AES-RC4",
+        "bytes": 116231,
+        "encrypt_ms": 25.651791016571224,
+        "decrypt_ms": 25.651999982073903
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "AES-RC4",
+        "bytes": 64525,
+        "encrypt_ms": 15.53170895203948,
+        "decrypt_ms": 15.772624989040196
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "AES-RC4",
+        "bytes": 360069,
+        "encrypt_ms": 79.78491601534188,
+        "decrypt_ms": 80.00308298505843
+      }
+    },
+    "RC4-AES": {
+      "file1.docx": {
+        "file": "file1.docx",
+        "scheme": "RC4-AES",
+        "bytes": 411105,
+        "encrypt_ms": 89.76837497903034,
+        "decrypt_ms": 90.1611250010319
+      },
+      "file2.xlsx": {
+        "file": "file2.xlsx",
+        "scheme": "RC4-AES",
+        "bytes": 11475,
+        "encrypt_ms": 2.6824999949894845,
+        "decrypt_ms": 2.6537079829722643
+      },
+      "file3.pptx": {
+        "file": "file3.pptx",
+        "scheme": "RC4-AES",
+        "bytes": 116231,
+        "encrypt_ms": 25.78766702208668,
+        "decrypt_ms": 25.86679201340303
+      },
+      "file4.jpg": {
+        "file": "file4.jpg",
+        "scheme": "RC4-AES",
+        "bytes": 64525,
+        "encrypt_ms": 14.696375001221895,
+        "decrypt_ms": 14.366374991368502
+      },
+      "file5.pdf": {
+        "file": "file5.pdf",
+        "scheme": "RC4-AES",
+        "bytes": 360069,
+        "encrypt_ms": 78.53737496770918,
+        "decrypt_ms": 78.3409170107916
+      }
+    }
+  },
+  "ae_encodings": {
+    "Hexadecimal of RC4 output": 33.00931010645765,
+    "Base64 of RC4 output": 40.818279890314344,
+    "UTF-8 of RC4 bytes": 45.80039569791642
+  }
+}

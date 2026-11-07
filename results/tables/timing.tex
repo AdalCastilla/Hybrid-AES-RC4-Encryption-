@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Time to encrypt and decrypt all five files (963,405 bytes, median of 5 runs).}
+\label{tab:p3_timing}
+\small
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Scheme} & \textbf{Encrypt (ms)} & \textbf{Decrypt (ms)} & \textbf{Encrypt MB/s} \\
+\midrule
+AES only & 2.4 & 2.4 & 393.54 \\
+RC4 only & 209.9 & 209.9 & 4.59 \\
+AES-RC4 & 215.4 & 213.6 & 4.47 \\
+RC4-AES & 211.5 & 211.4 & 4.56 \\
+\bottomrule
+\end{tabular}
+\end{table}

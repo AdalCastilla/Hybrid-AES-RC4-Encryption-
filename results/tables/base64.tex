@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\caption{Average Avalanche Effect over the five files and three key modifications when the AES output is kept as raw bytes and when it is Base64 encoded, as the PHP implementation of the original study does by default.}
+\label{tab:p3_base64}
+\small
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Scheme} & \textbf{Raw bytes} & \textbf{Base64} & \textbf{Paper} \\
+\midrule
+AES only & 49.98\% & 40.79\% & 40.82\% \\
+RC4 only & 50.01\% & 50.01\% & 49.99\% \\
+AES-RC4 & 50.01\% & 50.01\% & 57.04\% \\
+RC4-AES & 49.95\% & 40.77\% & 40.78\% \\
+\midrule
+\multicolumn{4}{l}{Size ratio of the Base64 AES output: 1.3344 (paper: 1.3336)} \\
+\bottomrule
+\end{tabular}
+\end{table}

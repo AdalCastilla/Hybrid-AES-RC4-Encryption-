@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Keys of the paper's avalanche test (Table III of the original study) and number of key bits each modification actually changes.}
+\label{tab:p3_keys}
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{Key} & \textbf{AES key} & \textbf{RC4 key} & \textbf{Bits changed (AES / RC4)} \\
+\midrule
+Original & \texttt{universitas} & \texttt{jayaabadi} & -- \\
+Modified Key 1 & \texttt{vniversitas} & \texttt{kayaabadi} & 2 / 1 \\
+Modified Key 2 & \texttt{univessitas} & \texttt{jayabbadi} & 1 / 2 \\
+Modified Key 3 & \texttt{universitat} & \texttt{jayaabadj} & 3 / 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
